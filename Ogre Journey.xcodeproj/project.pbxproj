@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88619FEC2537F9440009223A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88619FEB2537F9440009223A /* AppDelegate.swift */; };
+		88619FEE2537F9440009223A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88619FED2537F9440009223A /* GameScene.sks */; };
+		88619FF02537F9440009223A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88619FEF2537F9440009223A /* Actions.sks */; };
+		88619FF22537F9440009223A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88619FF12537F9440009223A /* GameScene.swift */; };
+		88619FF42537F9440009223A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88619FF32537F9440009223A /* GameViewController.swift */; };
+		88619FF72537F9440009223A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88619FF52537F9440009223A /* Main.storyboard */; };
+		88619FF92537F9460009223A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88619FF82537F9460009223A /* Assets.xcassets */; };
+		8861A0042537F9460009223A /* Ogre_JourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861A0032537F9460009223A /* Ogre_JourneyTests.swift */; };
+		8861A00F2537F9460009223A /* Ogre_JourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861A00E2537F9460009223A /* Ogre_JourneyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8861A0002537F9460009223A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88619FE02537F9440009223A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88619FE72537F9440009223A;
+			remoteInfo = "Ogre Journey";
+		};
+		8861A00B2537F9460009223A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88619FE02537F9440009223A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88619FE72537F9440009223A;
+			remoteInfo = "Ogre Journey";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88619FE82537F9440009223A /* Ogre Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ogre Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88619FEB2537F9440009223A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88619FED2537F9440009223A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		88619FEF2537F9440009223A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		88619FF12537F9440009223A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		88619FF32537F9440009223A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		88619FF62537F9440009223A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88619FF82537F9460009223A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88619FFA2537F9460009223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88619FFF2537F9460009223A /* Ogre JourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ogre JourneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8861A0032537F9460009223A /* Ogre_JourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ogre_JourneyTests.swift; sourceTree = "<group>"; };
+		8861A0052537F9460009223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8861A00A2537F9460009223A /* Ogre JourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ogre JourneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8861A00E2537F9460009223A /* Ogre_JourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ogre_JourneyUITests.swift; sourceTree = "<group>"; };
+		8861A0102537F9460009223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88619FE52537F9440009223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88619FFC2537F9460009223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8861A0072537F9460009223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88619FDF2537F9440009223A = {
+			isa = PBXGroup;
+			children = (
+				88619FEA2537F9440009223A /* Ogre Journey */,
+				8861A0022537F9460009223A /* Ogre JourneyTests */,
+				8861A00D2537F9460009223A /* Ogre JourneyUITests */,
+				88619FE92537F9440009223A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88619FE92537F9440009223A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88619FE82537F9440009223A /* Ogre Journey.app */,
+				88619FFF2537F9460009223A /* Ogre JourneyTests.xctest */,
+				8861A00A2537F9460009223A /* Ogre JourneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88619FEA2537F9440009223A /* Ogre Journey */ = {
+			isa = PBXGroup;
+			children = (
+				88619FEB2537F9440009223A /* AppDelegate.swift */,
+				88619FED2537F9440009223A /* GameScene.sks */,
+				88619FEF2537F9440009223A /* Actions.sks */,
+				88619FF12537F9440009223A /* GameScene.swift */,
+				88619FF32537F9440009223A /* GameViewController.swift */,
+				88619FF52537F9440009223A /* Main.storyboard */,
+				88619FF82537F9460009223A /* Assets.xcassets */,
+				88619FFA2537F9460009223A /* Info.plist */,
+			);
+			path = "Ogre Journey";
+			sourceTree = "<group>";
+		};
+		8861A0022537F9460009223A /* Ogre JourneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8861A0032537F9460009223A /* Ogre_JourneyTests.swift */,
+				8861A0052537F9460009223A /* Info.plist */,
+			);
+			path = "Ogre JourneyTests";
+			sourceTree = "<group>";
+		};
+		8861A00D2537F9460009223A /* Ogre JourneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8861A00E2537F9460009223A /* Ogre_JourneyUITests.swift */,
+				8861A0102537F9460009223A /* Info.plist */,
+			);
+			path = "Ogre JourneyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88619FE72537F9440009223A /* Ogre Journey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8861A0132537F9460009223A /* Build configuration list for PBXNativeTarget "Ogre Journey" */;
+			buildPhases = (
+				88619FE42537F9440009223A /* Sources */,
+				88619FE52537F9440009223A /* Frameworks */,
+				88619FE62537F9440009223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ogre Journey";
+			productName = "Ogre Journey";
+			productReference = 88619FE82537F9440009223A /* Ogre Journey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88619FFE2537F9460009223A /* Ogre JourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8861A0162537F9460009223A /* Build configuration list for PBXNativeTarget "Ogre JourneyTests" */;
+			buildPhases = (
+				88619FFB2537F9460009223A /* Sources */,
+				88619FFC2537F9460009223A /* Frameworks */,
+				88619FFD2537F9460009223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8861A0012537F9460009223A /* PBXTargetDependency */,
+			);
+			name = "Ogre JourneyTests";
+			productName = "Ogre JourneyTests";
+			productReference = 88619FFF2537F9460009223A /* Ogre JourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8861A0092537F9460009223A /* Ogre JourneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8861A0192537F9460009223A /* Build configuration list for PBXNativeTarget "Ogre JourneyUITests" */;
+			buildPhases = (
+				8861A0062537F9460009223A /* Sources */,
+				8861A0072537F9460009223A /* Frameworks */,
+				8861A0082537F9460009223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8861A00C2537F9460009223A /* PBXTargetDependency */,
+			);
+			name = "Ogre JourneyUITests";
+			productName = "Ogre JourneyUITests";
+			productReference = 8861A00A2537F9460009223A /* Ogre JourneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88619FE02537F9440009223A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					88619FE72537F9440009223A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					88619FFE2537F9460009223A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 88619FE72537F9440009223A;
+					};
+					8861A0092537F9460009223A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 88619FE72537F9440009223A;
+					};
+				};
+			};
+			buildConfigurationList = 88619FE32537F9440009223A /* Build configuration list for PBXProject "Ogre Journey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88619FDF2537F9440009223A;
+			productRefGroup = 88619FE92537F9440009223A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88619FE72537F9440009223A /* Ogre Journey */,
+				88619FFE2537F9460009223A /* Ogre JourneyTests */,
+				8861A0092537F9460009223A /* Ogre JourneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88619FE62537F9440009223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88619FF72537F9440009223A /* Main.storyboard in Resources */,
+				88619FEE2537F9440009223A /* GameScene.sks in Resources */,
+				88619FF92537F9460009223A /* Assets.xcassets in Resources */,
+				88619FF02537F9440009223A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88619FFD2537F9460009223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8861A0082537F9460009223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88619FE42537F9440009223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88619FF22537F9440009223A /* GameScene.swift in Sources */,
+				88619FF42537F9440009223A /* GameViewController.swift in Sources */,
+				88619FEC2537F9440009223A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88619FFB2537F9460009223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8861A0042537F9460009223A /* Ogre_JourneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8861A0062537F9460009223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8861A00F2537F9460009223A /* Ogre_JourneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8861A0012537F9460009223A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88619FE72537F9440009223A /* Ogre Journey */;
+			targetProxy = 8861A0002537F9460009223A /* PBXContainerItemProxy */;
+		};
+		8861A00C2537F9460009223A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88619FE72537F9440009223A /* Ogre Journey */;
+			targetProxy = 8861A00B2537F9460009223A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88619FF52537F9440009223A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88619FF62537F9440009223A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8861A0112537F9460009223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8861A0122537F9460009223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8861A0142537F9460009223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JTUBZ62H8;
+				INFOPLIST_FILE = "Ogre Journey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Drevitch.Ogre-Journey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8861A0152537F9460009223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JTUBZ62H8;
+				INFOPLIST_FILE = "Ogre Journey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Drevitch.Ogre-Journey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8861A0172537F9460009223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JTUBZ62H8;
+				INFOPLIST_FILE = "Ogre JourneyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Drevitch.Ogre-JourneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ogre Journey.app/Ogre Journey";
+			};
+			name = Debug;
+		};
+		8861A0182537F9460009223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JTUBZ62H8;
+				INFOPLIST_FILE = "Ogre JourneyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Drevitch.Ogre-JourneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ogre Journey.app/Ogre Journey";
+			};
+			name = Release;
+		};
+		8861A01A2537F9460009223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JTUBZ62H8;
+				INFOPLIST_FILE = "Ogre JourneyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Drevitch.Ogre-JourneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ogre Journey";
+			};
+			name = Debug;
+		};
+		8861A01B2537F9460009223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JTUBZ62H8;
+				INFOPLIST_FILE = "Ogre JourneyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Drevitch.Ogre-JourneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ogre Journey";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88619FE32537F9440009223A /* Build configuration list for PBXProject "Ogre Journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8861A0112537F9460009223A /* Debug */,
+				8861A0122537F9460009223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8861A0132537F9460009223A /* Build configuration list for PBXNativeTarget "Ogre Journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8861A0142537F9460009223A /* Debug */,
+				8861A0152537F9460009223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8861A0162537F9460009223A /* Build configuration list for PBXNativeTarget "Ogre JourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8861A0172537F9460009223A /* Debug */,
+				8861A0182537F9460009223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8861A0192537F9460009223A /* Build configuration list for PBXNativeTarget "Ogre JourneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8861A01A2537F9460009223A /* Debug */,
+				8861A01B2537F9460009223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88619FE02537F9440009223A /* Project object */;
+}
